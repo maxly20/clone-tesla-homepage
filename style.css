@@ -148,7 +148,7 @@ a:active {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transform: translateY(-300px);
+  transform: translateY(-150px);
 }
 .content h1 {
   font-size: 70px;
@@ -187,10 +187,10 @@ a:active {
 .nav__burger > li {
   list-style: none;
   width: 100%;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid rgb(192, 189, 189);
   display: flex;
   justify-content: center;
-  padding-bottom: 2rem;
+  padding-bottom: 0.8rem;
 }
 
 /* ==================== 
@@ -233,5 +233,8 @@ a:active {
   }
   .nav__right {
     justify-content: flex-end;
+  }
+  .content {
+    transform: translateY(-100px);
   }
 }
